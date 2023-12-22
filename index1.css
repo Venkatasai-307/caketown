@@ -1,0 +1,650 @@
+.header{
+    width: 1502px;
+    height: 200px;
+    /* border: 3px solid black; */
+    position:fixed;
+    top: 0;
+    padding: 0; 
+     margin: 0;
+    background-image: linear-gradient(pink, gray,yellow,rgb(255, 0, 4));
+}
+
+.head img{
+    width: 100%;
+    height: 200px;
+  
+}
+.log img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+}
+.add a{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size:x-large ;
+    color: blueviolet;
+    text-decoration: none;
+}
+.add a:hover{
+    color: aqua;
+}
+.menu ul{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+}
+.menu ul li{
+    margin-left: 40px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    /* background-color: lightblue; */
+    font-weight: bold;
+    color:gold;
+}
+.menu ul li a:hover{
+    color: silver;
+}
+/* .phone{
+    margin-left: 1150px;
+    margin-top: -280px;
+    font-weight: bold;
+    font-size: 25px;
+  
+   
+} */
+.phone a{
+    text-decoration: none;
+    color:black;
+    animation: cake 2s infinite;
+    /* margin-top: -650px; */
+}
+@keyframes cake{
+    /* to{
+        color: gold;
+    } */
+    from{
+        color: blue;
+    }
+}
+.add a{
+    margin-top: 100px;
+}
+.menu a::before{
+    content:'' ;
+    height: 2px;
+    width: 0;
+    background-color: rgb(255, 0, 157);
+    display: block;
+    transition: 0.5s;
+    margin-top: 5px;
+
+}
+.menu a:hover::before{
+    width: 100%;
+}
+.menu  a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    margin: left;
+    transition: 0.5s;
+    display: block;
+    /* position: absolute; */
+}
+.menu a:hover::after{
+    width: 100%;
+}
+div.gallary{
+margin: 5px;
+border: 3px solid black;
+float: left;
+width: 250px;
+/* position: sticky; */
+}
+div.gallary :hover{
+    /* border: 1px solid blue; */
+    transition: 0.5s;
+   
+    transform: scale(1.1);
+}
+div.gallary.img{
+    width: 100%;
+    height: auto;
+}
+.content1{
+    text-align: center;
+    font-size: x-large;
+}
+.price{
+    text-align: center;
+    font-size: x-large;
+}
+div.gallary2{
+    margin: 5px;
+    border: 3px solid black;
+    float: left;
+    width: 250px;
+    height: 475px;
+    }
+    div.gallary2 :hover{
+        /* border: 1px solid blue; */
+        transition: 0.5s;
+   
+        transform: scale(1.1);
+    }
+    div.gallary2.img{
+        width: 100%;
+        height: auto;
+    }
+    .content2{
+        text-align: center;
+        font-size: x-large;
+    }
+    .price2{
+        text-align: center;
+        font-size: x-large;
+    }
+    div.gallary3{
+        margin: 5px;
+        border: 3px solid black;
+        float: left;
+        width: 250px;
+        height: 475px;
+        }
+        div.gallary3 :hover{
+            /* border: 1px solid blue; */
+            transition: 0.5s;
+   
+            transform: scale(1.1);
+        }
+        div.gallary3.img{
+            width: 100%;
+            height: 100px;
+        }
+        .content3{
+            text-align: center;
+            font-size: x-large;
+        }
+        .price3{
+            text-align: center;
+            font-size: x-large;
+        }
+        div.gallary4{
+            margin: 5px;
+            border: 3px solid black;
+            float: left;
+            width: 250px;
+            height: 475px;
+            }
+            div.gallary4 :hover{
+                /* border: 1px solid blue; */
+                transition: 0.5s;
+   
+    transform: scale(1.1);
+            }
+            div.gallary4.img{
+                width: 100%;
+                height: 100px;
+            }
+            .content4{
+                text-align: center;
+                font-size: x-large;
+            }
+            .price4{
+                text-align: center;
+                font-size: x-large;
+            }
+            .box {
+                background-image: linear-gradient(rgb(47, 0, 255), red, green, yellow);
+                width: 1502px;
+                height: 600px;
+                margin-top: 200px;
+            }
+            
+        div.gallary5{
+            margin: 5px;
+            border: 3px solid black;
+            float: left;
+            width: 250px;
+            height: 475px;
+        }
+            div.gallary5 :hover{
+                /* border: 1px solid blue; */
+                transition: 0.5s;
+                transform: rotatey(360deg);
+            }
+            div.gallary5.img{
+                width: 100%;
+                height: 100px;
+            }
+            .content5{
+                text-align: center;
+                font-size: x-large;
+            }
+            .price5{
+                text-align: center;
+                font-size: x-large;
+            }
+            div.gallary6{
+                margin: 5px;
+                border: 3px solid black;
+                float: left;
+                width: 250px;
+                height: 475px;
+                }
+                div.gallary6 :hover{
+                    /* border: 1px solid blue; */
+                    transition: 0.5s;
+                    transform: rotatey(360deg);
+                }
+                div.gallary6.img{
+                    width: 100%;
+                    height: 100px;
+                }
+                .content6{
+                    text-align: center;
+                    font-size: x-large;
+                }
+                .price6{
+                    text-align: center;
+                    font-size: x-large;
+                }
+                div.gallary7{
+                    margin: 5px;
+                    border: 3px solid black;
+                    float: left;
+                    width: 250px;
+                    height: 475px;
+                    }
+                    div.gallary7 :hover{
+                        /* border: 1px solid blue; */
+                        transition: 0.5s;
+                        transform: rotatey(360deg);
+                    }
+                    div.gallary7.img{
+                        width: 100%;
+                        height: 100px;
+                    }
+                    .content7{
+                        text-align: center;
+                        font-size: x-large;
+                    }
+                    .price7{
+                        text-align: center;
+                        font-size: x-large;
+                    }
+                    div.gallary8{
+                        margin: 5px;
+                        border: 3px solid black;
+                        float: left;
+                        width: 250px;
+                        height: 475px;
+                        }
+                        div.gallary8 :hover{
+                            /* border: 1px solid blue; */
+                            transition: 0.5s;
+                            transform: rotatey(360deg);
+                        }
+                        div.gallary8.img{
+                            width: 100%;
+                            height: 100px;
+                        }
+                        .content8{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .price8{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .cake {
+                            background-image: linear-gradient(rgb(255, 0, 153), rgb(0, 251, 255), green, rgb(255, 0, 0));
+                            width: 1502px;
+                            height: 600px;
+                            margin-top: -20px;
+                        }
+                        
+                    div.gallary9{
+                        margin: 5px;
+                        border: 3px solid black;
+                        float: left;
+                        width: 250px;
+                        height: 475px;
+                        }
+                        div.gallary9 :hover{
+                            /* border: 1px solid blue; */
+                            transition: 0.5s;
+                            transform: rotatex(360deg);
+                        }
+                        div.gallary9.img{
+                            width: 100%;
+                            height: 100px;
+                        }
+                        .content9{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .price9{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        
+                    div.gallary10{
+                        margin: 5px;
+                        border: 3px solid black;
+                        float: left;
+                        width: 250px;
+                        height: 475px;
+                        }
+                        div.gallary10 :hover{
+                            /* border: 1px solid blue; */
+                            transition: 0.5s;
+                            transform: rotatex(360deg);
+                        }
+                        div.gallary10.img{
+                            width: 100%;
+                            height: 100px;
+                        }
+                        .content10{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .price10{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        
+                    div.gallary11{
+                        margin: 5px;
+                        border: 3px solid black;
+                        float: left;
+                        width: 250px;
+                        height: 475px;
+                        }
+                        div.gallary11:hover{
+                            /* border: 1px solid blue; */
+                            transition: 0.5s;
+                            transform: rotatex(360deg);
+                        }
+                        div.gallary11.img{
+                            width: 100%;
+                            height: 100px;
+                        }
+                        .content11{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .price11{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        
+                    div.gallary12{
+                        margin: 5px;
+                        border: 3px solid black;
+                        float: left;
+                        width: 250px;
+                        height: 475px;
+                        }
+                        div.gallary12 :hover{
+                            /* border: 1px solid blue; */
+                            transition: 0.5s;
+                            transform: rotatex(360deg);
+                        }
+                        div.gallary12.img{
+                            width: 100%;
+                            height: 100px;
+                        }
+                        .content12{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .price12{
+                            text-align: center;
+                            font-size: x-large;
+                        }
+                        .box3 {
+                            background-image: linear-gradient(gray, crimson, lime, olive);
+                            width: 1502px;
+                            height: 600px;
+                            margin-top: -20px;
+                        }
+                        div.gallary13{
+                            margin: 5px;
+                            border: 3px solid black;
+                            float: left;
+                            width: 250px;
+                            height: 475px;
+                            }
+                            div.gallary13 :hover{
+                                /* border: 1px solid blue; */
+                                transition: 0.5s;
+                                transform: rotatey(360deg);
+                            }
+                            div.gallary13.img{
+                                width: 100%;
+                                height: 100px;
+                            }
+                            .content13{
+                                text-align: center;
+                                font-size: x-large;
+                            }
+                            .price13{
+                                text-align: center;
+                                font-size: x-large;
+                            }
+                            div.gallary14{
+                                margin: 5px;
+                                border: 3px solid black;
+                                float: left;
+                                width: 250px;
+                                height: 475px;
+                                }
+                                div.gallary14 :hover{
+                                    /* border: 1px solid blue; */
+                                    transition: 0.5s;
+                                    transform: rotatey(360deg);
+                                }
+                                div.gallary14.img{
+                                    width: 100%;
+                                    height: 100px;
+                                }
+                                .content14{
+                                    text-align: center;
+                                    font-size: x-large;
+                                }
+                                .price14{
+                                    text-align: center;
+                                    font-size: x-large;
+                                }
+                                div.gallary15{
+                                    margin: 5px;
+                                    border: 3px solid black;
+                                    float: left;
+                                    width: 250px;
+                                    height: 475px;
+                                    }
+                                    div.gallary15 :hover{
+                                        /* border: 1px solid blue; */
+                                        transition: 0.5s;
+                                        transform: rotatey(360deg);
+                                    }
+                                    div.gallary15.img{
+                                        width: 100%;
+                                        height: 100px;
+                                    }
+                                    .content15{
+                                        text-align: center;
+                                        font-size: x-large;
+                                    }
+                                    .price15{
+                                        text-align: center;
+                                        font-size: x-large;
+                                    }
+                                    div.gallary16{
+                                        margin: 5px;
+                                        border: 3px solid black;
+                                        float: left;
+                                        width: 250px;
+                                        height: 475px;
+                                        }
+                                        div.gallary16 :hover{
+                                            /* border: 1px solid blue; */
+                                            transition: 0.5s;
+                                            transform: rotatey(360deg);
+                                        }
+                                        div.gallary16.img{
+                                            width: 100%;
+                                            height: 100px;
+                                        }
+                                        .content16{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .price16{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .box4{
+                                            background-image: linear-gradient(orange,black, white, blue);
+                                            width: 1502px;
+                                            height: 600px;
+                                            margin-top: -20px;
+                                        }
+                                        
+                                    div.gallary17{
+                                        margin: 5px;
+                                        border: 3px solid black;
+                                        float: left;
+                                        width: 250px;
+                                        height: 475px;
+                                        }
+                                        div.gallary17 :hover{
+                                            /* border: 1px solid blue; */
+                                            transition: 0.5s;
+                                            transform: rotatey(360deg);
+                                        }
+                                        div.gallary17.img{
+                                            width: 100%;
+                                            height: 100px;
+                                        }
+                                        .content17{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .price17{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        
+                                    div.gallary18{
+                                        margin: 5px;
+                                        border: 3px solid black;
+                                        float: left;
+                                        width: 250px;
+                                        height: 475px;
+                                        }
+                                        div.gallary18 :hover{
+                                            /* border: 1px solid blue; */
+                                            transition: 0.5s;
+                                            transform: rotatey(360deg);
+                                        }
+                                        div.gallary18.img{
+                                            width: 100%;
+                                            height: 100px;
+                                        }
+                                        .content18{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .price18{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        
+                                    div.gallary19{
+                                        margin: 5px;
+                                        border: 3px solid black;
+                                        float: left;
+                                        width: 250px;
+                                        height: 475px;
+                                        }
+                                        div.gallary19 :hover{
+                                            /* border: 1px solid blue; */
+                                            transition: 0.5s;
+                                            transform: rotatey(360deg);
+                                        }
+                                        div.gallary19.img{
+                                            width: 100%;
+                                            height: 100px;
+                                        }
+                                        .content19{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .price19{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        
+                                    div.gallary20{
+                                        margin: 5px;
+                                        border: 3px solid black;
+                                        float: left;
+                                        width: 250px;
+                                        height: 475px;
+                                        }
+                                        div.gallary20 :hover{
+                                            /* border: 1px solid blue; */
+                                            transition: 0.5s;
+                                            transform: rotatey(360deg);
+                                        }
+                                        div.gallary20.img{
+                                            width: 100%;
+                                            height: 100px;
+                                        }
+                                        .content20{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .price20{
+                                            text-align: center;
+                                            font-size: x-large;
+                                        }
+                                        .box5{
+                                            background-image: linear-gradient(red,green,rgb(0, 136, 255),gray);
+                                            width: 1502px;
+                                            height: 600px;
+                                            margin-top: -20px;
+                                        }
+                                        .footer{
+                                            width: 1502px;
+                                            height: 200px;
+                                            /* border: 3px solid black; */
+                                            background-color: gainsboro;
+                                        }
+.add{
+    margin-left: 600px;
+    margin-top: -170px;
+    font-size: x-large;
+}
+.icon{
+    margin-left: 1240px;
+    font-size: xx-large;
+    margin-top: -20px;
+    
+}
+.icon a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.icon a:hover{
+color:black ;
+}
